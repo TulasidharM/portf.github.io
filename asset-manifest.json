@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portf.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/portf.github.io/static/js/main.be1e5fce.js",
-    "static/js/453.72c68f9c.chunk.js": "/portf.github.io/static/js/453.72c68f9c.chunk.js",
-    "static/media/logo.svg": "/portf.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/portf.github.io/index.html",
-    "main.f855e6bc.css.map": "/portf.github.io/static/css/main.f855e6bc.css.map",
-    "main.be1e5fce.js.map": "/portf.github.io/static/js/main.be1e5fce.js.map",
-    "453.72c68f9c.chunk.js.map": "/portf.github.io/static/js/453.72c68f9c.chunk.js.map"
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.72b125af.js",
+    "static/js/453.72c68f9c.chunk.js": "/static/js/453.72c68f9c.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.72b125af.js.map": "/static/js/main.72b125af.js.map",
+    "453.72c68f9c.chunk.js.map": "/static/js/453.72c68f9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.be1e5fce.js"
+    "static/js/main.72b125af.js"
   ]
 }
