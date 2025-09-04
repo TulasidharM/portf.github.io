@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab6fd18f.css",
-    "main.js": "/static/js/main.a73b4bde.js",
-    "static/media/RobotoMono-VariableFont_wght.ttf": "/static/media/RobotoMono-VariableFont_wght.d0b941a0d7e8f3dd71e7.ttf",
-    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "main.css": "/static/css/main.249017af.css",
+    "main.js": "/static/js/main.e4bfba90.js",
+    "static/media/work.jpg": "/static/media/work.1c5dad52e6670b762ecb.jpg",
+    "static/media/healthyFoods.png": "/static/media/healthyFoods.525f045ba41463e51358.png",
     "static/media/me.jpeg": "/static/media/me.8f7259eeb0342df762ae.jpeg",
     "index.html": "/index.html",
-    "main.ab6fd18f.css.map": "/static/css/main.ab6fd18f.css.map",
-    "main.a73b4bde.js.map": "/static/js/main.a73b4bde.js.map"
+    "main.249017af.css.map": "/static/css/main.249017af.css.map",
+    "main.e4bfba90.js.map": "/static/js/main.e4bfba90.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab6fd18f.css",
-    "static/js/main.a73b4bde.js"
+    "static/css/main.249017af.css",
+    "static/js/main.e4bfba90.js"
   ]
 }
