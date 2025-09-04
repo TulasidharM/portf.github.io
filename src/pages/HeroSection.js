@@ -6,7 +6,7 @@ const HeroSection = ()=>{
     // const [isMenuOpen , setIsMenuOpen] = useState(false); 
     
     return(
-        <div className="w-screen flex flex-col flex-1 gap-5 p-2 px-10
+        <div className="w-full flex flex-col flex-1 gap-5 p-2 px-10
                         lg:flex-row lg:p-20 lg:gap-20
                         justify-center items-center">
             <img src={coolguy} alt="" className="h-52 lg:h-96 rounded-full"/>
@@ -26,12 +26,12 @@ const HeroSection = ()=>{
                 <br/>
                 
                 <p className="text-sm sm:text-xl/9">
-                    I am a Computer Science 2025 undergraduate with real-world experience in various technologies <br/>
-                    including FullStack development with SPRING BOOT, <br/>
-                    POST QUANTUM cryptography, VR developement with UNITY3D obtained through freelancing and internships. <br/>
-                    Built production-ready applications using REACT<br/>
-                    <br/>
-                    I am Passionate about learning new technologies and solving real-world problems.<br/>
+                    I am a Computer Science 2025 undergraduate with real-world experience in various technologies 
+                    including FullStack development with SPRING BOOT, 
+                    POST QUANTUM cryptography, VR developement with UNITY3D obtained through freelancing and internships. 
+                    Built production-ready applications using REACT
+                    <br/><br/>
+                    I am Passionate about learning new technologies and solving real-world problems.
                 </p>
             </div>
     </div>

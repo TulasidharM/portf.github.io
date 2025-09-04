@@ -1,6 +1,8 @@
 import HeroSection from "./pages/HeroSection";
 import Navbar from "./pages/Navbar";
 
+import work from "./images/work.jpg";
+
 import Squares from "./components/Squares";
 import { SiReact,
         SiBlender,
@@ -11,11 +13,16 @@ import {
   FaUnity,
   FaJs,
   FaHtml5,
+  FaS,
  } from "react-icons/fa6";
 
 import { BiLogoSpringBoot } from "react-icons/bi";
 
 import LogoLoop from "./components/LogoLoop";
+import ExperienceSection from "./pages/ExperienceSection";
+
+import './App.css';
+import ProjectSection from "./pages/ProjectSection";
 
 const techLogos = [
   { node: <SiReact />, title: "React", href: "" },
@@ -30,7 +37,7 @@ const techLogos = [
 function App() {
   return (
   <div className="flex flex-col" >   
-    <div className="m-20"></div>
+    <div id="hero" className="m-20"></div>
     <div className="bg-black w-full h-[1000px] lg:h-[720px] absolute -z-50 opacity-20" >
         <Squares 
           speed={0.2} 
@@ -43,12 +50,13 @@ function App() {
 
     
     <Navbar/>
-    <HeroSection/>
+    <div>
+      <HeroSection/>
+    </div>
     
-    {/* Empty Space to allow scrolling */}
-    <div className="mb-[900px]"></div>
 
-    <div className="w-full h-[200px] absolute top-[900px] lg:top-[720px] z-2 overflow-hidden">
+
+    <div className="w-full my-5 top-[900px] lg:top-[720px] z-2 overflow-hidden">
       <LogoLoop
         logos={techLogos}
         speed={80}
@@ -61,6 +69,14 @@ function App() {
         fadeOutColor="#000000"
         ariaLabel="Skills"
       />
+    </div>
+
+    <div id="experience" className=" mt-20  bg-cover" >
+      <ExperienceSection/>
+    </div>
+
+    <div id="projects">
+      <ProjectSection/>
     </div>
   </div>
   );
