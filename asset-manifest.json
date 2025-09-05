@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.249017af.css",
-    "main.js": "/static/js/main.e4bfba90.js",
+    "main.css": "/static/css/main.9052d2d1.css",
+    "main.js": "/static/js/main.0db4a7dd.js",
+    "static/media/OilRef.png": "/static/media/OilRef.37c32e3d62131090a2df.png",
     "static/media/work.jpg": "/static/media/work.1c5dad52e6670b762ecb.jpg",
     "static/media/healthyFoods.png": "/static/media/healthyFoods.525f045ba41463e51358.png",
+    "static/media/expense Tracker.png": "/static/media/expense Tracker.1de506c3c702e44486d2.png",
+    "static/media/omen2.jpeg": "/static/media/omen2.a71be2b5417ab0cdf1ed.jpeg",
+    "static/media/server.jpg": "/static/media/server.8de956717972ae4f6c9f.jpg",
     "static/media/me.jpeg": "/static/media/me.8f7259eeb0342df762ae.jpeg",
+    "static/media/ncogwallet.png": "/static/media/ncogwallet.fece37ab4a7a94432f48.png",
     "index.html": "/index.html",
-    "main.249017af.css.map": "/static/css/main.249017af.css.map",
-    "main.e4bfba90.js.map": "/static/js/main.e4bfba90.js.map"
+    "main.9052d2d1.css.map": "/static/css/main.9052d2d1.css.map",
+    "main.0db4a7dd.js.map": "/static/js/main.0db4a7dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.249017af.css",
-    "static/js/main.e4bfba90.js"
+    "static/css/main.9052d2d1.css",
+    "static/js/main.0db4a7dd.js"
   ]
 }
