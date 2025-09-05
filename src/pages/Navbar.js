@@ -21,7 +21,7 @@ const Navbar =()=>{
                         transition-all duration-300`}>
             
             <div className="flex flex-row justify-between items-center">
-                <a onClick={closeMenu} href="#">
+                <a onClick={closeMenu} href="#top">
                     <h1 className="text-xl font-black font-roboto lg:text-2xl">Tulasidhar M<span className="hidden sm:inline">ulakaluri</span> </h1>
                 </a>
                 <nav>
@@ -45,7 +45,7 @@ const Navbar =()=>{
             </div>
             
             {/* Burger Nav */}
-                <div className={`${isMenuOpen ? "opacity-100":"opacity-0"} flex items-center flex-col lg:opacity-0 transition-all gap-2 duration-300 `}>
+                <div className={`${isMenuOpen ? "opacity-100":"opacity-0 collapse"} flex items-center flex-col lg:hidden transition-all gap-2 duration-300 `}>
                     <a onClick={closeMenu} href="#experience" className="p-2">Experience</a> 
                     <a onClick={closeMenu} href="#projects" className="p-2">Projects</a>
                     <a onClick={closeMenu} href="#about" className="p-2">About</a>

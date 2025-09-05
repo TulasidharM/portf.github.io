@@ -23,14 +23,15 @@ import ExperienceSection from "./pages/ExperienceSection";
 
 import './App.css';
 import ProjectSection from "./pages/ProjectSection";
+import About from "./pages/About";
 
 const techLogos = [
-  { node: <SiReact />, title: "React", href: "" },
   { node: <BiLogoSpringBoot />, title: "Next.js", href: "" },
-  { node: <FaUnity />, title: "TypeScript", href: "" },
+  { node: <SiTailwindcss />, title: "Tailwind CSS", href: "" },
+  { node: <SiReact />, title: "React", href: "" },
   { node: <FaJs />, title: "Java Script", href: "" },
   { node: <FaHtml5 />, title: "Html", href: "" },
-  { node: <SiTailwindcss />, title: "Tailwind CSS", href: "" },
+  { node: <FaUnity />, title: "TypeScript", href: "" },
   { node: <SiBlender />, title: "Blender CSS", href: "" },
 ];
 
@@ -48,8 +49,8 @@ function App() {
         />
     </div>
 
-    
     <Navbar/>
+
     <div>
       <HeroSection/>
     </div>
@@ -68,15 +69,19 @@ function App() {
         fadeOut
         fadeOutColor="#000000"
         ariaLabel="Skills"
-      />
+      />  
     </div>
 
-    <div id="experience" className=" mt-20  bg-cover" >
+    <div id="experience" className="scroll-m-36 mt-20  bg-cover">
       <ExperienceSection/>
     </div>
 
-    <div id="projects">
+    <div id="projects" className="scroll-m-36">
       <ProjectSection/>
+    </div>
+
+     <div id="about" className="scroll-m-36">
+      <About/>
     </div>
   </div>
   );

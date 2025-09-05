@@ -1,5 +1,4 @@
 
-import { TbSchool } from "react-icons/tb";
 
 const ExperienceSection = ()=>{
 return(

@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily:{
         roboto:['Roboto Mono','mono'],
-        poppins:['Poppins']
+        poppins:['Poppins'],
+        cedarville:["Cedarville Cursive", 'cursive']
       }
     },
   },
