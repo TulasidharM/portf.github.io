@@ -24,6 +24,7 @@ import ExperienceSection from "./pages/ExperienceSection";
 import './App.css';
 import ProjectSection from "./pages/ProjectSection";
 import About from "./pages/About";
+import Footer from "./pages/Footer";
 
 const techLogos = [
   { node: <BiLogoSpringBoot />, title: "Next.js", href: "" },
@@ -80,8 +81,12 @@ function App() {
       <ProjectSection/>
     </div>
 
-     <div id="about" className="scroll-m-36">
+     {/* <div id="about" className="scroll-m-36">
       <About/>
+    </div> */}
+
+    <div id="footer" className="scroll-m-36">
+      <Footer/>
     </div>
   </div>
   );

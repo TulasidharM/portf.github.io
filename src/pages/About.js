@@ -1,5 +1,3 @@
-import { SiAboutdotme } from "react-icons/si";
-
 
 const About = () =>{
     return (
@@ -10,11 +8,10 @@ const About = () =>{
             </h1>
             <div className="relative">
                 <h1 className="text-6xl overflow-hidden w-auto font-cedarville opacity-40 absolute -top-[100px] -left-20 -z-10">
-                    {/* <SiAboutdotme /> */}
                     About
                 </h1>
             </div>
-
+                Random text in this section
         </div>
     )
 }
