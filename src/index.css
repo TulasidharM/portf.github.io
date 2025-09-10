@@ -37,3 +37,8 @@ body {
     
 }
 
+
+::selection {
+  color: black;
+  background: white;
+}

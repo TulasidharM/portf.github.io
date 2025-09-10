@@ -22,7 +22,9 @@ const Navbar =()=>{
             
             <div className="flex flex-row justify-between items-center">
                 <a onClick={closeMenu} href="#top">
-                    <h1 className="text-xl font-black font-roboto lg:text-2xl">Tulasidhar M<span className="hidden sm:inline">ulakaluri</span> </h1>
+                    <h1 className="text-xl font-black font-roboto lg:text-2xl">
+                        Tulasidhar M<span className="hidden sm:inline">ulakaluri</span> 
+                    </h1>
                 </a>
                 <nav>
                     {/* Normal nav */}

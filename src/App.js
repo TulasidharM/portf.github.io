@@ -23,7 +23,8 @@ import ExperienceSection from "./pages/ExperienceSection";
 
 import './App.css';
 import ProjectSection from "./pages/ProjectSection";
-import About from "./pages/About";
+import Contact from "./pages/Contact";
+import { ToastContainer } from "react-toastify";
 import Footer from "./pages/Footer";
 
 const techLogos = [
@@ -81,12 +82,8 @@ function App() {
       <ProjectSection/>
     </div>
 
-     {/* <div id="about" className="scroll-m-36">
-      <About/>
-    </div> */}
-
-    <div id="footer" className="scroll-m-36">
-      <Footer/>
+     <div id="about" className="scroll-m-36">
+      <Contact/>
     </div>
   </div>
   );
