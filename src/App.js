@@ -82,9 +82,14 @@ function App() {
       <ProjectSection/>
     </div>
 
-     <div id="about" className="scroll-m-36">
+     <div id="contact" className="scroll-m-36">
       <Contact/>
     </div>
+
+    <div id="footer" className="scroll-m-36">
+      <Footer/>
+    </div>
+
   </div>
   );
 }

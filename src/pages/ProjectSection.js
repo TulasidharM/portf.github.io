@@ -29,7 +29,7 @@ const ProjectSection = ()=>{
                             Projects
             </h1>
             <div className="relative">
-                    <h1 className="text-6xl opacity-40 absolute -top-[130px] rotate-12 left-[15px] -z-10">🚀</h1>
+                    {/* <h1 className="text-6xl opacity-40 absolute -top-[130px] rotate-12 left-[15px] -z-10">🚀</h1> */}
                 <h1 className="text-6xl overflow-hidden font-cedarville opacity-40 absolute w-auto -top-[100px] -left-[95px] -z-10">
                     Projects
                 </h1>
@@ -56,7 +56,7 @@ const ProjectSection = ()=>{
 
             {projectType === "Web Projects" 
             &&
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 mx-56">
                 {/* Healthy Foods */}
                 <div className="flex flex-col lg:flex-row items-center gap-5 ">
 
@@ -64,7 +64,7 @@ const ProjectSection = ()=>{
                     <div className="flex flex-col p-10 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Healthy Foods Website</h2>
                         <p>
-                            Built a fully functional react website for Healthy Foods a food subscription service.<br/>
+                            Built a fully functional react website for Healthy Foods a food subscription service.
                             Highlited their strenghs and showcased their bussiness in a sleek and minimalistic way. 
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
@@ -82,8 +82,8 @@ const ProjectSection = ()=>{
                     <div className="flex flex-col p-10 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Expense Tracker</h2>
                         <p>
-                            Built a fully functional react website for Healthy Foods a food subscription service.<br/>
-                            Highlited their strenghs and showcased their bussiness in a sleek and minimalistic way. 
+                            Developed a SpringBoot + React Application to allow employees to submit expenses to allow claims.
+                            With proper spring security and role based authentication Was part of training in Optival Health Solutions internship
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"React"}/>
@@ -103,8 +103,8 @@ const ProjectSection = ()=>{
                     <div className="flex flex-col p-10 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">NCOG Wallet Browser Extension</h2>
                         <p>
-                            Built a fully functional react website for Healthy Foods a food subscription service.<br/>
-                            Highlited their strenghs and showcased their bussiness in a sleek and minimalistic way. 
+                            Spearheaded a wallet extention that handles POST QUANTUM SECURE cryptography keys , Which has the primary goal to seamlessly integrate with other NCOG applications.
+                            Developed Event/Listener based integration with other NCOG applications like DMail, DChat etc 
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"React"}/>

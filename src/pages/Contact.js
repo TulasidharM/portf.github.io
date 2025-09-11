@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
-
+import emailjs from 'emailjs-com';
 
 const Contact = () =>{
     const [contact,setContact] = useState({
+        fromEmail:'tulasidharmulakaluri@gmail.com',
         message:'',
         mail:'',
     })
@@ -11,11 +12,23 @@ const Contact = () =>{
     const handleSubmit = (e)=>{
         e.preventDefault();
         console.log(": " + contact.mail + " " +contact.message) ;
-        setContact({
-            message:'',
-            mail:'',
-        })    
-        toast("Thanks for messaging , I'll get back to you soon!");
+        
+        
+        var message = contact.message;
+        var main = contact.mail;
+        
+        if(message!=="" && main!==""){
+            emailjs.sendForm('service_vxjq52s','template_l8f72om',e.target,'9m7xV1Awro84Tn6SH').then(()=>{
+                console.log("succesfull");
+            })
+            .catch((e)=>console.log(e));
+            toast("Thanks for messaging , I'll get back to you soon!");
+            setContact({
+                message:'',
+                mail:'',
+            })
+        }
+
 
     }
 
@@ -44,7 +57,7 @@ const Contact = () =>{
             </div>
             
 
-                <form onSubmit={handleSubmit} className="w-full flex flex-col">
+                <form onSubmit={handleSubmit} className="w-full sm:w-3/4 flex flex-col">
                     <div className="flex flex-col gap-2">
                         <label>Your mail</label>
                         <input type="email" 
@@ -66,7 +79,8 @@ const Contact = () =>{
                             bg-white/5 outline outline-1 outline-white/20 p-3 backdrop-blur-sm rounded-lg"/>
                     </div>
 
-                    <input type="submit"/>
+                    <input className="bg-white/90 hover:bg-white/70 w-1/2 sm:w-1/6 p-2 sm:p-4 rounded-sm text-black m-auto" type="submit"/>
+
                 </form>
 
         </div>

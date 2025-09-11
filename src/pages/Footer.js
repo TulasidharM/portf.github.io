@@ -1,5 +1,4 @@
-import { FaLinkedin,FaInstagram,FaDiscord } from "react-icons/fa";
-
+import { FaLinkedin,FaInstagram,FaGithub } from "react-icons/fa";
   
 const Footer = ()=>{
     return (
@@ -18,9 +17,17 @@ const Footer = ()=>{
             <h2 className="text-xl font-bold mb-2">Let's stay in touch</h2>
             
             <div className="flex gap-2 text-3xl justify-center">
-                <FaLinkedin className="hover:text-blue-600"/>
-                <FaInstagram className="hover:text-red-500"/>
-                <FaDiscord className="hover:text-blue-300"/>
+                <a href="https://www.linkedin.com/in/tulasidhar" target="_blank">
+                    <FaLinkedin className="hover:text-blue-600"/>
+                </a>
+                
+                <a href="https://www.instagram.com/dasu2k" target="_blank">
+                    <FaInstagram className="hover:text-red-500"/>
+                </a>
+
+                <a href="https://github.com/TulasidharM" target="_blank">
+                    <FaGithub className="hover:text-violet-700"/>
+                </a>
             </div>
         </div>
     

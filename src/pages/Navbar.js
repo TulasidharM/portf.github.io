@@ -35,8 +35,8 @@ const Navbar =()=>{
                         <a onClick={closeMenu} href="#projects" className="p-2 px-4 mx-2 rounded-lg hover:bg-white hover:text-black transition-colors delay-20">
                             Projects
                         </a>
-                        <a onClick={closeMenu} href="#about" className="p-2 px-4 mx-2 rounded-lg hover:bg-white hover:text-black transition-colors delay-20">
-                            About
+                        <a onClick={closeMenu} href="#contact" className="p-2 px-4 mx-2 rounded-lg hover:bg-white hover:text-black transition-colors delay-20">
+                            Contact
                         </a>
                     </div>
                     
@@ -50,7 +50,7 @@ const Navbar =()=>{
                 <div className={`${isMenuOpen ? "opacity-100":"opacity-0 collapse"} flex items-center flex-col lg:hidden transition-all gap-2 duration-300 `}>
                     <a onClick={closeMenu} href="#experience" className="p-2">Experience</a> 
                     <a onClick={closeMenu} href="#projects" className="p-2">Projects</a>
-                    <a onClick={closeMenu} href="#about" className="p-2">About</a>
+                    <a onClick={closeMenu} href="#contact" className="p-2">Contact</a>
                 </div>
         </div>
         
