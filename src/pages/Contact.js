@@ -79,7 +79,7 @@ const Contact = () =>{
                             bg-white/5 outline outline-1 outline-white/20 p-3 backdrop-blur-sm rounded-lg"/>
                     </div>
 
-                    <input className="bg-white/90 hover:bg-white/70 w-1/2 sm:w-1/6 p-2 sm:p-4 rounded-sm text-black m-auto" type="submit"/>
+                    <input className="bg-white/90 hover:bg-white/70 w-1/2 sm:w-1/6 p-2 rounded-sm text-black m-auto" type="submit"/>
 
                 </form>
 

@@ -33,6 +33,8 @@ const HeroSection = ()=>{
                     <br/><br/>
                     I am Passionate about learning new technologies and solving real-world problems.
                 </p>
+
+                <br/>
             </div>
     </div>
     );

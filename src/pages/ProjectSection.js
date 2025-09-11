@@ -3,14 +3,16 @@ import expenseTracker from "../images/expense Tracker.png";
 import ncogWallet from "../images/ncogwallet.png"
 
 import oilRef from "../images/OilRef.png";
-import omen from "../images/omen2.jpeg";
-import serverSim from "../images/server.jpg";
+import omen from "../images/omen.png";
+import serverSim from "../images/server.png";
 
 import GooeyNav from "../components/GooeyNav";
 
 
 import { useState } from "react";
 import SkillTag from "./sub-comps/SkillTag";
+
+
 
 const ProjectSection = ()=>{
 
@@ -56,12 +58,12 @@ const ProjectSection = ()=>{
 
             {projectType === "Web Projects" 
             &&
-            <div className="flex flex-col gap-5 mx-56">
+            <div className="flex flex-col gap-5 w-5/6 items-center">
                 {/* Healthy Foods */}
                 <div className="flex flex-col lg:flex-row items-center gap-5 ">
 
                     <img width={200} alt="" src={healthyFoods}></img>
-                    <div className="flex flex-col p-10 gap-6 items-center justify-center">
+                    <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Healthy Foods Website</h2>
                         <p>
                             Built a fully functional react website for Healthy Foods a food subscription service.
@@ -75,11 +77,11 @@ const ProjectSection = ()=>{
                 
                 </div>
                 {/* Expense Tracker  */}
-                <div className="flex flex-col lg:flex-row items-center gap-5 ">
+                <div className="flex flex-col lg:flex-row gap-5 items-center">
 
                     <img className="block lg:hidden" alt="" width={400} src={expenseTracker}></img>
 
-                    <div className="flex flex-col p-10 gap-6 items-center justify-center">
+                    <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Expense Tracker</h2>
                         <p>
                             Developed a SpringBoot + React Application to allow employees to submit expenses to allow claims.
@@ -100,7 +102,7 @@ const ProjectSection = ()=>{
                 <div className="flex flex-col lg:flex-row items-center gap-5 ">
 
                     <img width={200} alt="" src={ncogWallet}></img>
-                    <div className="flex flex-col p-10 gap-6 items-center justify-center">
+                    <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">NCOG Wallet Browser Extension</h2>
                         <p>
                             Spearheaded a wallet extention that handles POST QUANTUM SECURE cryptography keys , Which has the primary goal to seamlessly integrate with other NCOG applications.
@@ -110,8 +112,8 @@ const ProjectSection = ()=>{
                             <SkillTag text={"React"}/>
                             <SkillTag text={"TypeScript"}/>
                             <SkillTag text={"Tailwind"}/>
-                            <SkillTag text={"PostQuantum Cryptography"}/>
                             <SkillTag text={"Go Language"}/>
+                            <SkillTag text={"PostQuantum Cryptography"}/>
                         </div>
                     </div>
                 
@@ -120,16 +122,16 @@ const ProjectSection = ()=>{
             </div>}
 
             {projectType === "Unity (AR/VR/Desktop)" &&
-            <div className="flex flex-col ">
+            <div className="flex flex-col gap-5 w-5/6 items-center">
 
                 <div className="flex flex-col sm:flex-row items-center gap-5 ">
 
                     <img width={300} alt="" src={omen}></img>
-                    <div className="flex flex-col p-10 gap-6 items-center justify-center">
+                    <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Omen Of the Night</h2>
                         <p>
-                            Developed a complete mini game for a IGDC Game Dev Hackathon conducted in SOMEWHERE IDK.<br/>
-                            Highlited their strenghs and showcased their bussiness in a sleek and minimalistic way. 
+                            Developed a complete mini game for a IGDC Game Dev Hackathon conducted in Vishnu University.
+                            Lead my entire team and managed to grab the 3rd position in the compitition.
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"Unity"}/>
@@ -144,11 +146,11 @@ const ProjectSection = ()=>{
 
                     <img className="block lg:hidden" alt="" width={300} src={oilRef}></img>
 
-                    <div className="flex flex-col p-10 gap-6 items-center justify-center">
+                    <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Oil Refinary</h2>
                         <p>
-                            Built a fully functional react website for Healthy Foods a food subscription service.<br/>
-                            Highlited their strenghs and showcased their bussiness in a sleek and minimalistic way. 
+                            Built a VR simulation POC of an Oil Refinary as my second Freelance project in Unity 3d projects. Worked on Terrain building, Architechting the Refinary 
+                            identical to the real deal.Integrated seamless VR integration with Unity VR support. 
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"Unity"}/>
@@ -161,14 +163,14 @@ const ProjectSection = ()=>{
                 
                 </div>
 
-                <div className="flex flex-col sm:flex-row items-center gap-5 ">
+                <div className="flex flex-col lg:flex-row items-center gap-5 ">
 
                     <img width={300} alt="" src={serverSim}></img>
-                    <div className="flex flex-col p-10 gap-6 items-center justify-center">
-                        <h2 className="text-xl font-bold">Server Sim</h2>
+                    <div className="flex flex-col p-2 gap-6 items-center justify-center">
+                        <h2 className="text-xl font-bold">Server Simulation</h2>
                         <p>
-                            Developed a complete mini game for a IGDC Game Dev Hackathon conducted in SOMEWHERE IDK.<br/>
-                            Highlited their strenghs and showcased their bussiness in a sleek and minimalistic way. 
+                            Spearheaded a server airflow simulation POC with Unity particle system and some simple maths. Visual indications for air flow and temperature, Automatic cut off after thershold temperature.
+                            Implemented ServerLoad - AC temperature - Server Temperature relation seamlessly. 
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"Unity"}/>
@@ -177,7 +179,7 @@ const ProjectSection = ()=>{
                     </div>
                 
                 </div>
-            
+                
             </div>}
 
         </div>

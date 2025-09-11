@@ -1,5 +1,9 @@
 import { FaLinkedin,FaInstagram,FaGithub } from "react-icons/fa";
-  
+import { IoIosCloudDownload } from "react-icons/io";
+import { FaFileDownload } from "react-icons/fa";
+
+import resume from "../assets/TulasidharMulakaluri.pdf";
+
 const Footer = ()=>{
     return (
     <div className="flex flex-col gap-4 sm:flex-row items-center justify-center sm:justify-between sm:mx-20 border-t-2 border-t-white/20 m-2 p-3">
@@ -11,6 +15,11 @@ const Footer = ()=>{
                 ** This portfolio is built completely without the use of AI ** <br/>
                 Thank you for giving your time to look my portfolio.
             </p>
+            <a href={resume} download="TulasidharMulakaluri.pdf" className="flex items-center gap-3 text-white hover:bg-white/70 p-2 rounded-sm hover:text-black m-auto">
+                <FaFileDownload/>
+                Download resume
+            </a>
+
         </div>
         
         <div>
