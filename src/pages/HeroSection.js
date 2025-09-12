@@ -27,9 +27,9 @@ const HeroSection = ()=>{
                 
                 <p className="text-sm sm:text-xl/9">
                     I am a Computer Science 2025 undergraduate with real-world experience in various technologies 
-                    including FullStack development with SPRING BOOT, 
-                    POST QUANTUM cryptography, VR developement with UNITY3D obtained through freelancing and internships. 
-                    Built production-ready applications using REACT
+                    including FullStack development with SPRING BOOT + REACT, MERN, Django . 
+                    Experienced in the niche skill of Post Quantum Security with Crystals PQC library.
+                    I am also proficient in VR developement using UNITY Engine, A skill obtained through freelancing and own projects. 
                     <br/><br/>
                     I am Passionate about learning new technologies and solving real-world problems.
                 </p>

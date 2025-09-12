@@ -84,8 +84,8 @@ const ProjectSection = ()=>{
                     <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Expense Tracker</h2>
                         <p>
-                            Developed a SpringBoot + React Application to allow employees to submit expenses to allow claims.
-                            With proper spring security and role based authentication Was part of training in Optival Health Solutions internship
+                            Developed a SpringBoot + React Application to allow employees to submit expenses, managers to approve claims and admin can overlook entire stats and reports.
+                            Implemented proper spring security and role based authentication. Was part of training in Optival Health Solutions internship
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"React"}/>
@@ -106,7 +106,7 @@ const ProjectSection = ()=>{
                         <h2 className="text-xl font-bold">NCOG Wallet Browser Extension</h2>
                         <p>
                             Spearheaded a wallet extention that handles POST QUANTUM SECURE cryptography keys , Which has the primary goal to seamlessly integrate with other NCOG applications.
-                            Developed Event/Listener based integration with other NCOG applications like DMail, DChat etc 
+                            Developed Event-Listener based integration with other NCOG applications like DMail, DChat etc 
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"React"}/>
@@ -130,8 +130,8 @@ const ProjectSection = ()=>{
                     <div className="flex flex-col p-4 gap-6 items-center justify-center">
                         <h2 className="text-xl font-bold">Omen Of the Night</h2>
                         <p>
-                            Developed a complete mini game for a IGDC Game Dev Hackathon conducted in Vishnu University.
-                            Lead my entire team and managed to grab the 3rd position in the compitition.
+                            Developed a complete FPS mini game for a IGDC Game Dev Hackathon conducted in Vishnu University.
+                            Lead my entire team and managed to grab the 3rd position in the competition.
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"Unity"}/>
@@ -147,10 +147,10 @@ const ProjectSection = ()=>{
                     <img className="block lg:hidden" alt="" width={300} src={oilRef}></img>
 
                     <div className="flex flex-col p-4 gap-6 items-center justify-center">
-                        <h2 className="text-xl font-bold">Oil Refinary</h2>
+                        <h2 className="text-xl font-bold">Oil Refinery</h2>
                         <p>
-                            Built a VR simulation POC of an Oil Refinary as my second Freelance project in Unity 3d projects. Worked on Terrain building, Architechting the Refinary 
-                            identical to the real deal.Integrated seamless VR integration with Unity VR support. 
+                            Built a VR simulation POC of an Oil Refinery as my second Freelance project in Unity 3d projects. Worked on Terrain building, Architecting the Refinary 
+                            identical to the real deal and some post-processing. Integrated seamless VR integration with Unity VR support. 
                         </p>
                         <div className="mr-auto flex flex-wrap gap-y-3">
                             <SkillTag text={"Unity"}/>
