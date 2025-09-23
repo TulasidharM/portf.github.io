@@ -1,6 +1,7 @@
 import coolguy from "../images/me.jpeg";
 import TextType from "../components/TypeText";
-
+import { FaFileDownload, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import resume from "../assets/TulasidharMulakaluri.pdf";
 
 const HeroSection = ()=>{
     // const [isMenuOpen , setIsMenuOpen] = useState(false); 
@@ -11,7 +12,7 @@ const HeroSection = ()=>{
                         justify-center items-center">
             <img src={coolguy} alt="" className="h-52 lg:h-96 rounded-full"/>
 
-            <div className="p-5">
+            <div className="flex flex-col gap-3 p-5">
                 <div className="text-2xl lg:text-4xl font-roboto h-[60px]">
                     <TextType
                         text={["Hello, this is Tulasidhar", "This is a brief about me."]}
@@ -35,6 +36,13 @@ const HeroSection = ()=>{
                 </p>
 
                 <br/>
+
+                <a href={resume} download="TulasidharMulakaluri.pdf" className="flex text-sm sm:text-xl/9 items-center gap-3 text-black bg-white hover:bg-white/70 p-2 rounded-sm hover:text-black mr-auto">
+                    <FaFileDownload/>
+                    Download resume
+                </a>
+
+                
             </div>
     </div>
     );

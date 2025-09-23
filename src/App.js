@@ -24,7 +24,6 @@ import ExperienceSection from "./pages/ExperienceSection";
 import './App.css';
 import ProjectSection from "./pages/ProjectSection";
 import Contact from "./pages/Contact";
-import { ToastContainer } from "react-toastify";
 import Footer from "./pages/Footer";
 
 const techLogos = [
@@ -36,6 +35,26 @@ const techLogos = [
   { node: <FaUnity />, title: "TypeScript", href: "" },
   { node: <SiBlender />, title: "Blender CSS", href: "" },
 ];
+
+const navItems = [
+  {
+    name:"Experience",
+    link:"#experience"
+  },
+  {
+    name:"Contact",
+    link:"#contact"
+  },
+  {
+    name:"Projects",
+    link:"#projects"
+  },
+  {
+    name:"LinkedIn",
+    link:"https://linkedin.com/in/tulasidhar"
+  }
+  
+]
 
 function App() {
   return (
@@ -51,7 +70,11 @@ function App() {
         />
     </div>
 
-    <Navbar/>
+    <Navbar 
+      logoText={"Tulasidhar M"} 
+      logoTextFull={"Tulasidhar Mulakaluri"} 
+      navItems={navItems}
+    />
 
     <div>
       <HeroSection/>
