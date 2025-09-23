@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar =(props)=>{
     const [isMenuOpen,setIsMenuOpen] = useState(false);
+
     const handleMenuClick = (e) =>{
         console.log("Trying to open the menu");
         setIsMenuOpen(!isMenuOpen);
@@ -10,14 +11,20 @@ const Navbar =(props)=>{
     const closeMenu = () =>{
         setIsMenuOpen(false);
     }
+    
+    const maxNavLength = (props.navItems.length * 48) + 64 + 20;
+    
     return(
 
-        <div className={`${isMenuOpen ? "h-auto max-h-[500px]":" max-h-16"}  
-                        flex flex-col px-10 py-5 gap-5 
+        <div className="flex flex-col px-10 py-5 gap-5 
                         fixed -translate-x-1/2 w-11/12 left-1/2 top-10   
-                        lg:h-20 lg:px-20 lg:max-h-20
+                        lg:h-20 lg:px-20
                         rounded-3xl backdrop-blur-md outline outline-1 outline-white/20 bg-white/5 z-50
-                        transition-all duration-500`}>
+                        transition-all duration-300"
+            style={{
+                height:`${isMenuOpen ? `${maxNavLength}px`:"64px"}`
+            }}
+        >
             
             <div className="flex flex-row justify-between items-center">
                 <a onClick={closeMenu} href="#top">

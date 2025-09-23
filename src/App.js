@@ -52,7 +52,7 @@ const navItems = [
   {
     name:"LinkedIn",
     link:"https://linkedin.com/in/tulasidhar"
-  }
+  },
   
 ]
 
