@@ -2,6 +2,21 @@ import { useEffect, useState } from "react";
 
 const Navbar =(props)=>{
     const [isMenuOpen,setIsMenuOpen] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const breakpoint = 1024; // Example breakpoint for mobile vs desktop
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
 
     const handleMenuClick = (e) =>{
         console.log("Trying to open the menu");
@@ -12,17 +27,16 @@ const Navbar =(props)=>{
         setIsMenuOpen(false);
     }
     
-    const maxNavLength = (props.navItems.length * 48) + 64 + 20;
+    const maxNavHeight = (props.navItems.length * 48) + 64 + 20;
     
     return(
 
         <div className="flex flex-col px-10 py-5 gap-5 
-                        fixed -translate-x-1/2 w-11/12 left-1/2 top-10   
-                        lg:h-20 lg:px-20
+                        fixed -translate-x-1/2 w-11/12 left-1/2 top-10
                         rounded-3xl backdrop-blur-md outline outline-1 outline-white/20 bg-white/5 z-50
                         transition-all duration-300"
             style={{
-                height:`${isMenuOpen ? `${maxNavLength}px`:"64px"}`
+                height:`${isMenuOpen ? `${maxNavHeight}px`: windowWidth>=breakpoint ? "80px" : "64px"}`,
             }}
         >
             
