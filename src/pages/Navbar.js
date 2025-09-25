@@ -36,7 +36,7 @@ const Navbar =(props)=>{
                         rounded-3xl backdrop-blur-md outline outline-1 outline-white/20 bg-white/5 z-50
                         transition-all duration-300"
             style={{
-                height:`${isMenuOpen ? `${maxNavHeight}px`: windowWidth>=breakpoint ? "80px" : "64px"}`,
+                height:`${isMenuOpen && windowWidth<breakpoint ? `${maxNavHeight}px`: windowWidth>=breakpoint ? "80px" : "64px"}`,
             }}
         >
             
