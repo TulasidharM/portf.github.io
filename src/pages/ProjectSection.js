@@ -100,11 +100,11 @@ const ProjectSection = () => {
         />
       </div>
 
-      <div className="grid w-full max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid w-full max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
         {projectGroups[projectType].map((project) => (
           <article
             key={project.title}
-            className="group h-full rounded-2xl bg-white/5 p-4 outline outline-1 outline-white/20 backdrop-blur-sm transition hover:-translate-y-1 hover:bg-white/10"
+            className="group h-full rounded-2xl bg-white/5 p-6 outline outline-1 outline-white/20 backdrop-blur-sm transition hover:-translate-y-1 hover:bg-white/10"
           >
             <div className="flex h-full flex-col">
               <div className="mb-4 flex min-h-[220px] items-center justify-center rounded-xl bg-black/20 p-3">
@@ -119,7 +119,7 @@ const ProjectSection = () => {
               <h2 className="mb-3 text-lg font-bold">{project.title}</h2>
               <p className="mb-4 text-sm text-gray-200">{project.description}</p>
 
-              <div className="mt-auto flex flex-wrap gap-y-3">
+              <div className="mb-auto flex flex-wrap gap-y-3">
                 {project.skills.map((skill) => (
                   <SkillTag key={`${project.title}-${skill}`} text={skill} />
                 ))}
