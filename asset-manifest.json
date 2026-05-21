@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8ea59b42.css",
-    "main.js": "/static/js/main.96171214.js",
+    "main.js": "/static/js/main.9af2f38b.js",
     "static/media/work.jpg": "/static/media/work.1c5dad52e6670b762ecb.jpg",
     "static/media/OilRef.png": "/static/media/OilRef.dc962cd89c567fef0e6c.png",
     "static/media/omen.png": "/static/media/omen.68b054032fc4c6a287d0.png",
@@ -9,14 +9,13 @@
     "static/media/healthyFoods.png": "/static/media/healthyFoods.525f045ba41463e51358.png",
     "static/media/expense Tracker.png": "/static/media/expense Tracker.1de506c3c702e44486d2.png",
     "static/media/me.jpeg": "/static/media/me.8f7259eeb0342df762ae.jpeg",
-    "static/media/TulasidharMulakaluri.pdf": "/static/media/TulasidharMulakaluri.7d2d7cda05732138f373.pdf",
     "static/media/ncogwallet.png": "/static/media/ncogwallet.fece37ab4a7a94432f48.png",
     "index.html": "/index.html",
     "main.8ea59b42.css.map": "/static/css/main.8ea59b42.css.map",
-    "main.96171214.js.map": "/static/js/main.96171214.js.map"
+    "main.9af2f38b.js.map": "/static/js/main.9af2f38b.js.map"
   },
   "entrypoints": [
     "static/css/main.8ea59b42.css",
-    "static/js/main.96171214.js"
+    "static/js/main.9af2f38b.js"
   ]
 }
